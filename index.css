@@ -1,0 +1,42 @@
+
+body{
+    background-color: coral;
+    text-align: center;
+}
+section{
+    border-right:300px solid transparent;
+    border-top:300px solid transparent;
+    border-left:300px solid transparent;
+    border-bottom:300px solid red;
+    width:0px;
+    height:0px;
+    position:relative;
+    z-index: 4;
+    margin-top:-250px;
+    margin-left:400px;
+}
+#div1{
+    border-right:300px solid transparent;
+    border-top:300px solid transparent;
+    border-left:300px solid transparent;
+    border-bottom:300px solid green;
+    width:0px;
+    height:0px;
+    margin-top:-400px;
+    position:relative;
+    z-index: 3;
+    margin-left:400px;
+}
+article{
+    border-right:300px solid transparent;
+    border-top:300px solid transparent;
+    border-left:300px solid transparent;
+    border-bottom:300px solid yellow;
+    width:0px;
+    height:0px;
+    margin-top:-400px;
+    z-index: 2;
+    margin-left:400px;
+}
+
+
